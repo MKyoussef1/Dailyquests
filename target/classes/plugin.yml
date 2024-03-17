@@ -1,0 +1,12 @@
+name: DailyQuests
+version: '1.0'
+main: dev.valid.daily_quests.DailyQuests
+api-version: '1.20'
+commands:
+  dailyquests:
+  dq:
+depend:
+  - BeautyQuests
+permissions:
+  dq.bypass:
+    default: op
